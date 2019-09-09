@@ -4,6 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
 	    System.out.println("Hello World");
-	    System.out.println("What's Good?");
+	    System.out.println("Howdy?");
+        System.out.println("\"Brandon\"");
     }
 }
