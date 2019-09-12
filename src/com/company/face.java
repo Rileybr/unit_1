@@ -8,6 +8,19 @@ public class face {
         System.out.println("((  o o  ))");
         System.out.println(" |   V   |");
         System.out.println("  \\ === /");
-        System.out.println("   -----");
+        System.out.println("   -----\n");
+
+        System.out.println("\n <>=======()");
+        System.out.println("(/\\___   /|\\\\          ()==========<>_");
+        System.out.println("      \\_/ | \\\\        //|\\  _______/ \\)");
+        System.out.println("        \\_|  \\\\      // | \\_/");
+        System.out.println("          \\|\\/|\\_   //  /\\/");
+        System.out.println("           (OO)\\ \\_//   /");
+        System.out.println("          //_/\\_\\/ /  |");
+        System.out.println("         @@/  |=\\  \\  |");
+        System.out.println("              \\_=\\_ \\ |");
+        System.out.println("                 \\==\\ \\|\\_ snd");
+        System.out.println("   xxxxx");
+
     }
 }
