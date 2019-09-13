@@ -20,7 +20,12 @@ public class face {
         System.out.println("         @@/  |=\\  \\  |");
         System.out.println("              \\_=\\_ \\ |");
         System.out.println("                 \\==\\ \\|\\_ snd");
-        System.out.println("   xxxxx");
+        System.out.println("               __(\\===\\(  )\\");
+        System.out.println("              (((-) __(_/   |");
+        System.out.println("                   (((-) \\  /");
+        System.out.println("                  ______/ /");
+        System.out.println("                  '------'");
+
 
     }
 }
