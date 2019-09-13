@@ -8,6 +8,8 @@ public class Painting {
         double length;
         double width;
         double height;
+        int door_number;
+        int window_number;
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter room length in feet:");
         length = scan.nextDouble();
@@ -15,15 +17,15 @@ public class Painting {
         width = scan.nextDouble();
         System.out.println("Enter room height in feet:");
         height = scan.nextDouble();
-        int door_number;
-        int window_number;
+        System.out.println("Enter number of doors");
+        door_number = scan.nextInt();
+        System.out.println("Enter number of windows");
+        window_number = scan.nextInt();
         int door_area = 20;
         int window_area = 15;
         double room_surface_area;
         final int paint;
         double paint_needed;
-        door_number = 2;
-        window_number = 4;
         room_surface_area = length*width + 2*length*height + 2*width*height - door_area*door_number - window_area*window_number;
         System.out.print("the room is ");
         System.out.print(room_surface_area);
