@@ -1,8 +1,11 @@
 package com.company;
+import java.util.Scanner;
 
 public class TempConversion {
     public static void main(String[] args){
-        double fahrenheit = 78;
+        Scanner scan = new Scanner(System.in);
+        System.out.println("Enter the temperature in °F");
+        double fahrenheit = scan.nextDouble() ;
         double celsius;
 
         celsius = (fahrenheit - 32) * 5 / 9;
