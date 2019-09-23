@@ -1,6 +1,11 @@
 package com.company;
-
 import java.util.Scanner;
+
+/*
+By Brandon Riley
+September 23, 2019
+This program tells the user the fewest coins required to fit their user input number of cents
+ */
 
 public class CorrectChange {
     public static void main(String[] args){
@@ -8,6 +13,7 @@ public class CorrectChange {
 
         System.out.println("Please enter a whole number of cents:");
         int cents = scan.nextInt();
+
         int dollar;
         int quarters;
         int dimes;
