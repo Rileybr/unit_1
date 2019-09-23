@@ -1,4 +1,10 @@
 package com.company;
+/*
+By Brandon Riley
+September 23, 2019
+This program rounds a user input value to the nearest tenth
+ */
+
 
 import java.util.Scanner;
 
